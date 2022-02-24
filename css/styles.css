@@ -1,0 +1,65 @@
+.index {
+    background-image: url("../img/mapa\ Kanto.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+/* los elementos a que se encuentran dentro de un elemento con clase index */
+
+.index a {
+    text-decoration: none;
+    color: white;
+}
+
+span {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 20px 0;
+}
+
+img {
+    width: 35%;
+}
+
+
+/* gyarados.html */
+
+.gyarados {
+    background-color: antiquewhite font-family: 'Press Start 2P', cursive;
+}
+
+.gyarados a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+image {
+    width: 25%;
+}
+
+#agua {
+    background-color: aqua;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+#volador {
+    background-color: blue;
+    padding: 3px;
+    border-radius: 5px;
+}
