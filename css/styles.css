@@ -33,7 +33,7 @@ img {
 /* gyarados.html */
 
 .gyarados {
-    background-color: antiquewhite font-family: 'Press Start 2P', cursive;
+    background-color: antiquewhite
 }
 
 .gyarados a {
@@ -49,7 +49,7 @@ img {
 }
 
 image {
-    width: 25%;
+    width: 10%;
 }
 
 #agua {
@@ -62,4 +62,39 @@ image {
     background-color: blue;
     padding: 3px;
     border-radius: 5px;
+}
+
+
+/* jolteon.html */
+
+.jolteon {
+    background-color: blanchedalmond
+}
+
+.jolteon a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+#enlace {
+    text-align: center;
+}
+
+span {
+    background-color: yellow;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+/* media query para el diseño responsive */
+
+@media only screen and (max-width: 600px) {
+    .index img,
+    .gyarados img {
+        width: 100%;
+    }
 }
